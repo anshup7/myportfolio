@@ -64,11 +64,3 @@ skill.addEventListener("mouseleave", (e) => {
    img4.style.transform = "translateZ(0)";
    img5.style.transform = "translateZ(0)";
 })
-
-function openWhatsapp() {
-    window.open("https://wa.me/%2B919837125424?text=Hi", "other");
-}
-
-function openCv() {
-    window.open("https://drive.google.com/file/d/1Kv5RecwpPatKdCZq5ERIt-8GRvQdR6iq/view?usp=sharing", "other");
-}

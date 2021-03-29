@@ -74,20 +74,19 @@ nav .links .link {
     margin-right: 0.5%;
     border-radius: 5%;
     font-size: 1rem;
-    cursor: pointer;
 }
 
 .download {
     width: 12vw;
     background: linear-gradient(to right, #2923F0, #525CDE);
-    height: 50px;
+    height: 5vh;
     font-size: larger;
     margin-top: 10%;
 }
 
 .hireme {
     width: 12vw;
-    height: 50px;
+    height: 5vh;
     font-size: larger;
 }
 
@@ -230,7 +229,7 @@ nav .links .link {
  .footer {
      clear: both;
      position: relative;
-    height: 5em;
+    height: 10em;
     margin-top: 17%;
     background: linear-gradient(to right, #2923F0, #525CDE);
  }
@@ -248,7 +247,6 @@ nav .links .link {
      display: flex;
      width: 100%;
      justify-content: space-around;
-     margin-top: 2%;
      flex-wrap: nowrap;
      align-items: center;
  }
@@ -258,12 +256,4 @@ nav .links .link {
      width: 100%;
      margin-left: 10%;
      color: #0C0A14;
- }
-
- .footer-links li {
-     width: 20%;
- }
-
- .heart {
-     color: rgb(105, 9, 9);
  }

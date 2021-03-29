@@ -37,7 +37,7 @@
         </ul>
       </nav>
       <section class="secondary">
-        <button class="hire-me">Hire Me!</button>
+        <button onclick="openWhatsApp()" class="hire-me">Ping Me!</button>
       </section>
     </header>
     <section class="intro">
@@ -50,10 +50,9 @@
         </div>
         <div id="description">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            sapiente excepturi cumque unde, modi cupiditate esse, consequatur
-            natus voluptates quod nulla tempora eveniet dignissimos quidem
-            adipisci dolor doloribus animi non!
+            I am a Node.js Full Stack(<strong>Angular, Express, SQL</strong>) developer having <strong>3.5 Years</strong> of experience.
+            Currently working in Jio Platforms Limited, Mumbai(India). Please take some time
+            out to have a look at my CV.
           </p>
         </div>
         <div class="links-wrapper">
@@ -70,8 +69,8 @@
           </ul>
         </div>
         <div class="actions">
-          <button class="download">Download CV</button>
-          <button class="hireme">Hire me!</button>
+          <button onclick="openCv()" class="download">Download CV</button>
+          <button onclick="openWhatsapp()" class="hireme">Ping Me!</button>
         </div>
       </section>
 
@@ -429,7 +428,15 @@
        </section>
 
        <div class="footer">
-            <h3>In Beta; being made with &hearts; by AU </h1>
+           <div class="footer-container">
+              <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/anshumanupy/" target="_other">Linked In</a></li>
+                <li><a href="https://www.facebook.com/anshu00007/" target="_other">Facebook</a></li>
+                <li><a href="https://wa.me/%2B919837125424?text=Hi" target="_other">Send A Hi! on Whatsapp</a></li>
+            </ul>
+
+            <h4 class="made-with-love">In &beta;,  Being made with <span class="heart">&hearts;</span> by Anshuman Upadhyay</h1>
+           </div>
        </div>
         
   </body>
